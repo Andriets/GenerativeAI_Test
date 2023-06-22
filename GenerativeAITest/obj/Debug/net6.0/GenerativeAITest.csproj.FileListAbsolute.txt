@@ -6,8 +6,11 @@ D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\Generati
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\GenerativeAITest.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\ref\GenerativeAITest.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\GenerativeAITest.pdb
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\System.Web.Http.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\Stripe.net.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\System.Drawing.Common.dll
@@ -19,7 +22,6 @@ D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\runtimes
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.csproj.AssemblyReference.cache
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.GeneratedMSBuildEditorConfig.editorconfig
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.AssemblyInfoInputs.cache
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.AssemblyInfo.cs

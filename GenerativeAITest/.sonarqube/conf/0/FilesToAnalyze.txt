@@ -1,0 +1,8 @@
+﻿D:\Study\SoftServe\Generative AI Test\GenerativeAITest\Controllers\TransactionController.cs
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\Program.cs
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.GlobalUsings.g.cs
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.AssemblyInfo.cs
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\appsettings.Development.json
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\appsettings.json
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\Properties\launchSettings.json

@@ -1,0 +1,82 @@
+
+CGenerativeAITest.Controllers.TransactionController.GetListBalance()e
+[D:\Study\SoftServe\Generative AI Test\GenerativeAITest\Controllers\TransactionController.cs (+"4*
+0#	 #(	*
+1
+2*È
+
+1 (!Õ
+ 
+# (17
+%01Microsoft.Extensions.Configuration.IConfiguration"__id*}*{4
+2GenerativeAITest.Controllers.TransactionController"C
+_configuration1Microsoft.Extensions.Configuration.IConfiguration«ƒ
+# (F
+%1string"BMicrosoft.Extensions.Configuration.IConfiguration.this[string].get*;9
+7
+%01Microsoft.Extensions.Configuration.IConfiguration*
+StripeApiKeyWrite2this[string].get<
+:
+ (F
+stripeApiKeystring"__id*
+
+%1string
+}
+ (9
+%2string"%Stripe.StripeConfiguration.ApiKey.set* "
+Stripe.StripeConfiguration*
+
+stripeApiKeystring@>
+% (9
+%3Stripe.BalanceService"Stripe.BalanceServicea
+_
+) (7
+
+%4void"&Stripe.BalanceService.BalanceService()*
+
+%3Stripe.BalanceService\
+Z
+ (9'
+balanceServiceStripe.BalanceService"__id*
+
+%3Stripe.BalanceService®•
+ (2
+%5Stripe.Balance"0Stripe.BalanceService.Get(Stripe.RequestOptions)*+)
+'
+balanceServiceStripe.BalanceService*
+""2Get(Stripe.RequestOptions)G
+E
+ (2
+balanceStripe.Balance"__id*
+
+%5Stripe.BalanceÃ…
+ ("-
+%6'Microsoft.AspNetCore.Mvc.OkObjectResult"3Microsoft.AspNetCore.Mvc.ControllerBase.Ok(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+balanceStripe.Balance2Ok(object?)";
+ (#/
+-
+%6'Microsoft.AspNetCore.Mvc.OkObjectResult*è
+2   (,a_
+ "  (,
+%7string"System.Exception.Message.get*
+
+exSystem.Exception2Message.get◊‘
+   (-5
+%8/Microsoft.AspNetCore.Mvc.BadRequestObjectResult";Microsoft.AspNetCore.Mvc.ControllerBase.BadRequest(object?)*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+
+%7string2BadRequest(object?)"C
+   (.7
+5
+%8/Microsoft.AspNetCore.Mvc.BadRequestObjectResult*.
+3#	 #(	"
+# #(	
+implicit return*4
+4- (- 
+
+ (+
+%9"__entrypoint*
+0B64
+2GenerativeAITest.Controllers.TransactionController

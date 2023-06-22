@@ -1,0 +1,30 @@
+
+{GenerativeAITest.Controllers.TransactionController.TransactionController(Microsoft.Extensions.Configuration.IConfiguration)e
+[D:\Study\SoftServe\Generative AI Test\GenerativeAITest\Controllers\TransactionController.cs ($"3*‹
+1	 (	w
+u
+
+%0void"8Microsoft.AspNetCore.Mvc.ControllerBase.ControllerBase()*-+)
+'Microsoft.AspNetCore.Mvc.ControllerBase*
+0*í
+0 (*Ø
+Õ
+ (*{4
+2GenerativeAITest.Controllers.TransactionController"C
+_configuration1Microsoft.Extensions.Configuration.IConfiguration"__id*FD
+B
+configuration1Microsoft.Extensions.Configuration.IConfiguration*
+2*.
+2	 (	"
+ (	
+implicit return*|
+3B (Bh
+f
+ ($
+%1"__entrypoint*FD
+B
+configuration1Microsoft.Extensions.Configuration.IConfiguration*
+1:N
+% (AB
+configuration1Microsoft.Extensions.Configuration.IConfigurationB64
+2GenerativeAITest.Controllers.TransactionController

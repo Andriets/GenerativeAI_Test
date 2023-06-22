@@ -31,7 +31,32 @@ namespace GenerativeAITest.Controllers
             {
                 return BadRequest(ex.Message);
             }
-            
+        }
+
+        [HttpGet]
+        [Route("GetPaginatedListBalance/{limit}/{startingafter}")]
+        public IActionResult GetPaginatedListBalance(long? limit, string startingAfter)
+        {
+            try
+            {
+                var stripeApiKey = _configuration["StripeApiKeyWrite"];
+
+                StripeConfiguration.ApiKey = stripeApiKey;
+                var balanceTransactionOptions = new BalanceTransactionListOptions
+                {
+                    Limit = limit,
+                    StartingAfter = startingAfter,
+                };
+
+                var balanceTransactionService = new BalanceTransactionService();
+                var transactionList = balanceTransactionService.List(balanceTransactionOptions);
+
+                return Ok(transactionList);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }
