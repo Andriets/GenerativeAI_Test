@@ -8,10 +8,16 @@ namespace GenerativeAITest.Controllers
     public class TransactionController : ControllerBase
     {
         private readonly IConfiguration _configuration;
+        private readonly BalanceService _balanceService;
+        private readonly BalanceTransactionService _balanceTransactionService;
 
-        public TransactionController(IConfiguration configuration)
+        public TransactionController(IConfiguration configuration, 
+            BalanceService balanceService,
+            BalanceTransactionService balanceTransactionService)
         {
             _configuration = configuration;
+            _balanceService = balanceService;
+            _balanceTransactionService = balanceTransactionService;
         }
 
         [HttpGet]
@@ -23,8 +29,7 @@ namespace GenerativeAITest.Controllers
                 var stripeApiKey = _configuration["StripeApiKeyWrite"];
 
                 StripeConfiguration.ApiKey = stripeApiKey;
-                var balanceService = new BalanceService();
-                var balance = balanceService.Get();
+                var balance = _balanceService.Get();
 
                 return Ok(balance);
             } catch (Exception ex)
@@ -48,8 +53,7 @@ namespace GenerativeAITest.Controllers
                     StartingAfter = startingAfter,
                 };
 
-                var balanceTransactionService = new BalanceTransactionService();
-                var transactionList = balanceTransactionService.List(balanceTransactionOptions);
+                var transactionList = _balanceTransactionService.List(balanceTransactionOptions);
 
                 return Ok(transactionList);
             }

@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.Diagnostics;
+using Stripe;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<BalanceService>();
+builder.Services.AddScoped<BalanceTransactionService>();
 
 var app = builder.Build();
 

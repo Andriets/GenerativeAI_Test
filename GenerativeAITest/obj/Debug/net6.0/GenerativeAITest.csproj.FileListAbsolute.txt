@@ -35,3 +35,4 @@ D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\Generati
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\ref\GenerativeAITest.dll
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.pdb
 D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.genruntimeconfig.cache
+D:\Study\SoftServe\Generative AI Test\GenerativeAITest\obj\Debug\net6.0\GenerativeAITest.csproj.AssemblyReference.cache
